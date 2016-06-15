@@ -108,7 +108,7 @@ map <Leader>m :Rmodel
 map <Leader>mf mmgqap`m:w<cr>
 map <Leader>nn :sp ~/Dropbox/notes/programming_notes.txt<cr>
 map <Leader>nt :e! ~/Dropbox/docs/trailmix/todo.md<cr>
-map <Leader>o :wall<cr>:call RunNearestSpec()<CR>
+map <Leader>o :w<cr>:call RunNearestSpec()<CR>
 map <Leader>p :set paste<CR><esc>"*]p:set nopaste<cr>
 map <Leader>pn :sp ~/Dropbox/work/thoughtbot/notes/project-notes.md<cr>
 map <Leader>q :copen<cr><cr>
@@ -129,7 +129,7 @@ map <Leader>ss ds)i <esc>:w<cr>
 map <Leader>st :!ruby -Itest % -n "//"<left><left>
 map <Leader>su :RSunittest
 map <Leader>sv :RSview
-map <Leader>t :wall<cr>:call RunCurrentSpecFile()<CR>
+map <Leader>t :w<cr>:call RunCurrentSpecFile()<CR>
 map <Leader>y :!rspec --drb %<cr>
 map <Leader>u :Runittest<cr>
 map <Leader>vc :Vcontroller<cr>
