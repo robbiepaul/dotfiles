@@ -29,10 +29,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'ctrlpvim/ctrlp.vim'
 
 " Clojure
-Plugin 'guns/vim-clojure-static'
-Plugin 'tpope/vim-classpath'
 Plugin 'tpope/vim-fireplace'
-Plugin 'clojure-emacs/cider-nrepl'
 
 " Elm
 Plugin 'ElmCast/elm-vim'
@@ -103,7 +100,7 @@ map <Leader>f :call OpenFactoryFile()<CR>
 map <Leader>fix :cnoremap % %<CR>
 map <Leader>fa :sp test/factories.rb<CR>
 map <Leader>i mmgg=G`m
-map <Leader>l oconsole.log 'debugging'<esc>:w<cr>
+map <Leader>l :Eval<cr>
 map <Leader>m :Rmodel
 map <Leader>mf mmgqap`m:w<cr>
 map <Leader>nn :sp ~/Dropbox/notes/programming_notes.txt<cr>
