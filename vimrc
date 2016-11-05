@@ -40,13 +40,9 @@ let g:elm_setup_keybindings = 0 " Get the fuck out of my bindings
 " Colors
 Plugin 'nanotech/jellybeans.vim'
 
-
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-
-" Use the colorscheme from above
-colorscheme jellybeans
 
 " ========================================================================
 " Ruby stuff
@@ -184,8 +180,9 @@ set relativenumber
 set number
 set gdefault " assume the /g flag on :s substitutions to replace all matches in a line
 set autoindent " always set autoindenting on
-set bg=light
 set lazyredraw " Don't redraw screen when running macros.
+
+colorscheme jellybeans
 
 " Set the tag file search order
 set tags=./tags;
@@ -215,7 +212,6 @@ command! QA qall
 command! E e
 command! W w
 command! Wq wq
-
 
 " Execute macro in q
 map Q @q
@@ -256,12 +252,10 @@ endfunction
 
 nmap <C-W>u :call MergeTabs()<CR>
 
-
 " Squash all commits into the first during rebase
 function! SquashAll()
   normal ggj}klllcf:w
 endfunction
-
 
 function! SearchForCallSitesCursor()
   let searchTerm = expand("<cword>")
