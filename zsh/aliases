@@ -77,6 +77,7 @@ alias newblog='z blog ; rake new'
 alias newscreen="tmux"
 alias notes="cd ~/Dropbox/notes ; vim ."
 alias onboard='vim ~/Dropbox/docs/briefs-onboarding.txt'
+alias pairing='vim ~/Dropbox/notes/pair-programming-ebook-notes.md'
 alias parallel='rdtp && rake parallel:prepare test:parallel_with_specs'
 alias patch='git format-patch HEAD^ --stdout > patch.diff'
 alias pc='production-console'
