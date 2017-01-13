@@ -33,9 +33,9 @@ Plugin 'tpope/vim-fireplace'
 
 " Elm
 Plugin 'ElmCast/elm-vim'
-let g:elm_setup_keybindings = 0 " Get the fuck out of my bindings
+let g:elm_setup_keybindings = 0 " Get out of my bindings
 " Want this, but not showing errors:
-" let g:elm_format_autosave = 1
+let g:elm_format_autosave = 1
 
 " Colors
 Plugin 'nanotech/jellybeans.vim'
