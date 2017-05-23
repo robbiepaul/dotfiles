@@ -39,6 +39,7 @@ nitty
 Codecation
 ClojureScript
 disenjoyed
+<<<<<<< HEAD
 onboarding
 MicroConf
 SaaS
@@ -70,7 +71,6 @@ miswrote
 https
 https
 codecation
-<<<<<<< c7dcefcb28a5905b57ee172e7a3500ba5b155916
 Upcase's
 lifecycle
 consulting's
@@ -84,3 +84,7 @@ uniques
 RubyTapas
 Avdi
 OO
+vimuniversity
+coworking
+plugins
+vimrc
