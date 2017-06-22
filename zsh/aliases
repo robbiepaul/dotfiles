@@ -31,7 +31,7 @@ alias dbprep='rdm && rdtp'
 alias drop='cd ~/Dropbox'
 alias f='cd ~/code/formkeep'
 alias feels='vim ~/Dropbox/notes/feels.md'
-alias franklin='vim ~/Dropbox/notes/franklin-training-log.md'
+alias fix-camera='sudo killall VDCAssistant'
 alias fn='vim ~/Dropbox/work/thoughtbot/notes/formkeep/notes.md'
 alias fs='bundle install && foreman start'
 alias gad='git add --all .'
@@ -95,6 +95,7 @@ alias restart_apache="sudo /etc/init.d/apache2 restart"
 alias restart_postgres="stoppostgres && startpostgres"
 alias retag='ctags -R --exclude=.svn --exclude=.git --exclude=log --exclude=tmp *'
 alias review="git diff master"
+alias rr="vim ~/Dropbox/rr/notes/notes.md"
 alias rs='bundle check && rails server -p 3000'
 alias safepush='git pull --rebase && bundle install && rdm && rake && git push'
 alias sales='vim ~/Dropbox/work/thoughtbot/notes/outbound-sales/sales.md'
