@@ -345,6 +345,9 @@ autocmd FileType markdown setlocal nolist wrap lbr
 " Wrap the quickfix window
 autocmd FileType qf setlocal wrap linebreak
 
+" Don't automatically continue comments after newline
+autocmd BufNewFile,BufRead * setlocal formatoptions-=cro
+
 " Make it more obviouser when lines are too long
 highlight ColorColumn ctermbg=235
 
