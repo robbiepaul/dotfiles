@@ -81,7 +81,6 @@ alias pc='production-console'
 alias podcast='vim ~/Dropbox/work/thoughtbot/notes/shared-podcast-notes.md'
 alias prepdb='dbprep'
 alias r='cd ~/code/briefs'
-alias rr='vim ~/Dropbox/notes/refactoring-course.md'
 alias rc='bin/rails console'
 alias rdm="bin/rake db:migrate"
 alias retro='vim ~/Dropbox/work/thoughtbot/notes/formkeep/retros.md'
@@ -95,7 +94,7 @@ alias restart_apache="sudo /etc/init.d/apache2 restart"
 alias restart_postgres="stoppostgres && startpostgres"
 alias retag='ctags -R --exclude=.svn --exclude=.git --exclude=log --exclude=tmp *'
 alias review="git diff master"
-alias rr="vim ~/Dropbox/rr/notes/notes.md"
+alias rr="vim ~/Dropbox/rr/_notes/notes.md"
 alias rs='bundle check && rails server -p 3000'
 alias safepush='git pull --rebase && bundle install && rdm && rake && git push'
 alias sales='vim ~/Dropbox/work/thoughtbot/notes/outbound-sales/sales.md'
