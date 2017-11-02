@@ -9,6 +9,7 @@ fi
 alias -g G='| grep'
 alias -g L='| less'
 alias -g M='| more'
+alias adam='vim ~/Dropbox/notes/adam-wathan.md'
 alias aliases='vim ~/.dotfiles/zsh/aliases'
 alias amend="git commit --amend"
 alias b='bin/rspec'
@@ -48,7 +49,7 @@ alias gdm='git diff master'
 alias gg='git lg'
 alias gom-done="git-on-master && gpf && git-done"
 alias gp='git push'
-alias gpf='git push -f'
+alias gph='git push heroku'
 alias gpr='git pull --rebase'
 alias gpush='echo "Use gp!" && git push'
 alias gratitude='vim ~/Dropbox/docs/journal/gratitude.txt'
