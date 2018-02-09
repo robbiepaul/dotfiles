@@ -104,7 +104,7 @@ map <Leader>nn :sp ~/Dropbox/notes/programming_notes.txt<cr>
 map <Leader>nt :e! ~/Dropbox/docs/trailmix/todo.md<cr>
 map <Leader>o :w<cr>:call RunNearestSpec()<CR>
 map <Leader>p :set paste<CR><esc>"*]p:set nopaste<cr>
-map <Leader>pn :sp ~/Dropbox/work/thoughtbot/notes/project-notes.md<cr>
+map <Leader>pn :sp ~/Dropbox/work/mackey/notes/project-notes.md<cr>
 map <Leader>q :copen<cr><cr>
 map <Leader>ra :%s/
 map <Leader>rs :vsp <C-r>#<cr><C-w>w
@@ -293,7 +293,7 @@ let g:CommandTMatchWindowAtTop=1
 set timeoutlen=500
 
 " Remove trailing whitespace on save for ruby files.
-au BufWritePre *.rb :%s/\s\+$//e
+" au BufWritePre *.rb :%s/\s\+$//e
 
 function! OpenFactoryFile()
   if filereadable("test/factories.rb")
