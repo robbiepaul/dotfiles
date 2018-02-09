@@ -73,7 +73,6 @@ alias l='cd ~/code/upcase'
 alias m='git checkout master'
 alias marketing='vim ~/Dropbox/work/thoughtbot/notes/marketing-person.md'
 alias mastre='master'
-alias microconf='vim ~/Dropbox/speaking/microconf-new/notes.md'
 alias newblog='z blog ; rake new'
 alias news="vim -c \":e ~/Dropbox/notes/newsletter\""
 alias newscreen="tmux"
