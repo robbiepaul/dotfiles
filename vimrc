@@ -36,7 +36,7 @@ Plugin 'tpope/vim-fireplace'
 Plugin 'ElmCast/elm-vim'
 let g:elm_setup_keybindings = 0 " Get out of my bindings
 " Want this, but not showing errors:
-let g:elm_format_autosave = 1
+let g:elm_format_autosave = 0
 
 " Colors
 Plugin 'nanotech/jellybeans.vim'
@@ -63,6 +63,12 @@ augroup myfiletypes
   " Clojure
   autocmd FileType clojure setlocal colorcolumn=80
   autocmd FileType clojure map <Leader>t :!lein test<cr>
+
+  " Elm
+  autocmd FileType elm map <Leader>t :ElmMake<cr>
+  autocmd FileType elm map <Leader>d :ElmErrorDetail<cr>
+  autocmd FileType elm map <Leader>o :!elm-test<cr>
+  autocmd FileType elm map <Leader>i :ElmFormat<cr>
 augroup END
 
 " Enable built-in matchit plugin
