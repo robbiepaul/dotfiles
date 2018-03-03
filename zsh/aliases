@@ -101,6 +101,7 @@ alias safepush='git pull --rebase && bundle install && rdm && rake && git push'
 alias sales='vim ~/Dropbox/work/thoughtbot/notes/outbound-sales/sales.md'
 alias sc='staging-console'
 alias sfh='cd ~/code/speaking-for-hackers-book'
+alias shametest="RUBYOPT='-W0' rake test"
 alias shpush='rake && hpush'
 alias so='source ~/.dotfiles/zsh/aliases'
 alias sp='safepush'
