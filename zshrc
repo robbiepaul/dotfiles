@@ -37,6 +37,9 @@ export PATH=$PATH:$HOME/.dotfiles/bin
 # Add homebrew's bin
 export PATH=$PATH:/usr/local/bin
 
+# Add stack's bin
+export PATH=$PATH:~/.local/bin
+
 # RVM
 [[ -s "/Users/ben/.rvm/scripts/rvm" ]] && source "/Users/ben/.rvm/scripts/rvm"
 
