@@ -132,7 +132,7 @@ alias v='vim'
 alias vi='vim'
 alias w='cd ~/code/upcase-exercises'
 alias wi='vim -c ":e /Users/ben/Dropbox/work/thoughtbot/notes/weekly-iteration"'
-alias worknotes='vim ~/Dropbox/work/thoughtbot/notes -c "Ex"'
+alias worknotes='vim ~/Dropbox/work/tuple/notes -c "Ex"'
 alias wr='vim ~/Dropbox/work/thoughtbot/notes/weekly-review-checklist.md'
 
 # Heroku staging
