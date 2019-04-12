@@ -1,5 +1,6 @@
 ## Installation
 
-  `git clone git://github.com/r00k/dotfiles ~/.dotfiles`  
-  `cd ~/.dotfiles`  
-  `rake install`
+- `git clone git://github.com/robbiepaul/dotfiles ~/.dotfiles`  
+- `cd ~/.dotfiles`  
+- `brew bundle`
+- `rake install`
