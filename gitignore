@@ -8,3 +8,11 @@ db/*.sqlite3
 project-notes.txt
 .bundle
 .stack-work
+_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
